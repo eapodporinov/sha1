@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(62, 50, 168);
+  background-image: url("https://st2.depositphotos.com/2897263/7547/v/450/depositphotos_75474059-stock-illustration-blue-grid-with-shining-spots.jpg");
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  max-width: 677px;
+  position: absolute;        
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;                      
+  transform: translate(-50%, -60%)
+}
+
+h1 {
+  color: white;
+}
+
+textarea {
+  font-size: 12pt;
+  max-width: 95%;
+  width: 95%;
+  height: 200px;
+  border: 3px double #ccc;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background: #e0e0e0; /* Old browsers */
+  background: -moz-linear-gradient(top, #e0e0e0 0%, #ffffff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0e0e0), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e0e0e0 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e0e0e0 0%,#ffffff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e0e0e0 0%,#ffffff 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #e0e0e0 0%,#ffffff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  resize: none;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 180px;
+  font-size: 16pt;
+}
+
+::-moz-placeholder {
+  text-align: center;
+  line-height: 180px;
+  font-size: 16pt;
+}
+
+:-ms-input-placeholder{
+  text-align: center;
+  line-height: 180px;
+  font-size: 16pt;
+}
